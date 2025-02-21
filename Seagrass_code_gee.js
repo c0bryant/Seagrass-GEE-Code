@@ -20,24 +20,24 @@ var salt = ROI_salt.difference(remove_geo,1);
 var class_data = require(  // import the data module
 //'users/bryant117/thesis:class_gt_croix' //23-12-05
 //'users/bryant117/thesis:ground_truth/gt_18-12-21'
-//'users/bryant117/thesis:ground_truth/gt_19-01-05' //comeback to this one
+//'users/bryant117/thesis:ground_truth/gt_19-01-05' 
 //'users/bryant117/thesis:ground_truth/gt_19-03-16'
 //'users/bryant117/thesis:ground_truth/gt_19-10-17'
-//'users/bryant117/thesis:ground_truth/gt_19-11-21'// comeback to this one
+//'users/bryant117/thesis:ground_truth/gt_19-11-21'
 //'users/bryant117/thesis:ground_truth/gt_20-02-09'
 //'users/bryant117/thesis:ground_truth/gt_20-02-24'
-//'users/bryant117/thesis:ground_truth/gt_20-03-30'//comeback to this one
-//'users/bryant117/thesis:ground_truth/gt_20-10-26' // Error
-//'users/bryant117/thesis:ground_truth/gt_20-12-15' //Error
-//'users/bryant117/thesis:ground_truth/gt_21-03-25' // this is the image that the extra bay closes
+//'users/bryant117/thesis:ground_truth/gt_20-03-30'
+//'users/bryant117/thesis:ground_truth/gt_20-10-26' 
+//'users/bryant117/thesis:ground_truth/gt_20-12-15' 
+//'users/bryant117/thesis:ground_truth/gt_21-03-25' 
 //'users/bryant117/thesis:ground_truth/gt_21-10-26'
 //'users/bryant117/thesis:ground_truth/gt_21-12-25'
 //'users/bryant117/thesis:ground_truth/gt_22-01-29'
 //'users/bryant117/thesis:ground_truth/gt_22-10-21'
-//'users/bryant117/thesis:ground_truth/gt_22-11-25' // there is clouds every where
+//'users/bryant117/thesis:ground_truth/gt_22-11-25' 
 //'users/bryant117/thesis:ground_truth/gt_23-11-15'
 'users/bryant117/thesis:ground_truth/gt_23-12-05' //already done maybe
-//'users/bryant117/thesis:ground_truth/gt_23-12-30' //come back to this image
+//'users/bryant117/thesis:ground_truth/gt_23-12-30' 
 //'users/bryant117/thesis:ground_truth/gt_24-03-09'
 //'users/bryant117/thesis:ground_truth/gt_24-04-03'
 //'users/bryant117/thesis:ground_truth/gt_24-04-13'
@@ -69,15 +69,15 @@ var id1 = //'20231205T145719_20231205T145721_T20QLE' // 2023-12-05
 //'20200209T145721_20200209T145718_T20QLE' // 2020-02-09
 //'20200224T145719_20200224T145722_T20QLE' // 2020-02-24
 //'20200330T145721_20200330T145721_T20QLE' // 2020-03-30
-//'20201026T145731_20201026T145731_T20QLE' // 2020-10-26 //Error
-//'20201215T145721_20201215T145723_T20QLE' // 2020-12-15// come back to this one
+//'20201026T145731_20201026T145731_T20QLE' // 2020-10-26 
+//'20201215T145721_20201215T145723_T20QLE' // 2020-12-15
 //'20210325T145721_20210325T145724_T20QLE' // 2021-03-25
 //'20211026T145729_20211026T145727_T20QLE' // 2021-10-26
 //'20211225T145719_20211225T145720_T20QLE' // 2021-12-25
 //'20220129T145731_20220129T145725_T20QLE' // 2022-01-29
 //'20221021T145729_20221021T145725_T20QLE' // 2022-10-21
 //'20221125T145731_20221125T145725_T20QLE' // 2022-11-25
-//'20231115T145729_20231115T145723_T20QLE' // 2023-11-15 //more clouds WTF
+//'20231115T145729_20231115T145723_T20QLE' // 2023-11-15 
 '20231205T145719_20231205T145721_T20QLE' // 2023-12-05
 //'20231230T145721_20231230T145721_T20QLE' // 2023-12-30
 //'20240309T145731_20240309T145725_T20QLE' // 2024-03-09
